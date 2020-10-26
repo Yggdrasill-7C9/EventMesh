@@ -5,7 +5,7 @@ Request-Reply同步调用指的是请求方发出一条消息之后，需要响�
 
 <div align=center>
 
-![RR](../../images/features/RR-call-p1.png)
+![RR](/images/features/RR-call-p1.png)
 
 </div>
 
@@ -24,7 +24,7 @@ DeFiBus在每条请求消息中增加REPLY_TO属性来唯一标识每一个请�
 
 ---
 #### Links:
-* [架构介绍](../../../README.md)
+
 * [Request-Reply调用](cn/features/1-request-response-call.md)
 * [灰度发布](cn/features/2-dark-launch.md)
 * [熔断机制](cn/features/3-circuit-break-mechanism.md)

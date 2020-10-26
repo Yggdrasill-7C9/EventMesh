@@ -13,7 +13,7 @@ DeFiBus提供异常队列的隔离机制，当往某个队列发送消息失败�
 
 ---
 #### Links:
-* [架构介绍](../../../README.md)
+
 * [Request-Reply调用](cn/features/1-request-response-call.md)
 * [灰度发布](cn/features/2-dark-launch.md)
 * [熔断机制](cn/features/3-circuit-break-mechanism.md)

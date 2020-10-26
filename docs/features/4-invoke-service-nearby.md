@@ -6,7 +6,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 在创建Producer时，通过设置```DeFiBusClientConfig.setClusterPrefix("your region")```来标识Producer实例所在的区域。Producer在每次发送消息会先选则一个Queue来作为发送的目标队列。当启用就近发送时，Producer优先选择与自己同区域内的Queue，当本区域内没有可用Queue时，则选择其他区域的Queue。
 <div align=center>
-<img src="../../images/features/invoke_nearby-p1.png" width="600" />
+<img src="/images/features/invoke_nearby-p1.png" width="600" />
 </div>
 
 ### 就近监听
@@ -14,12 +14,12 @@
 就近监听指的是Consumer在做负载均衡分配Queue的时候，每个区域内的Queue只由该区域内的Consumer监听和消费，当且仅当一个区域内没有订阅该Topic的Consumer时，由其他区域订阅了该Topic的Consumer跨区域监听和消费这些Queue。虽然Consumer是在同区域内就近消费，但仍通过心跳维持跨区域的连接，以保证能够随时跨区域接管消费。
 
 <div align=center>
-<img src="../../images/features/subscribe-nearby-p1.png" width="600" />
+<img src="/images/features/subscribe-nearby-p1.png" width="600" />
 </div>
 
 ---
 #### Links:
-* [架构介绍](../../../README.md)
+
 * [Request-Reply调用](cn/features/1-request-response-call.md)
 * [灰度发布](cn/features/2-dark-launch.md)
 * [熔断机制](cn/features/3-circuit-break-mechanism.md)

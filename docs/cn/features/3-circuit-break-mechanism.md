@@ -15,7 +15,7 @@ DeFiBus对每个Topic定义了深度的属性，表示Topic的队列允许堆积
 
 ---
 #### Links:
-* [架构介绍](../../../README.md)
+
 * [Request-Reply调用](cn/features/1-request-response-call.md)
 * [灰度发布](cn/features/2-dark-launch.md)
 * [熔断机制](cn/features/3-circuit-break-mechanism.md)

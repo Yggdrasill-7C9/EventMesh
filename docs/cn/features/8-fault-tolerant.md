@@ -40,7 +40,7 @@ DeFiBus在Consumer拉消息的过程中增加了对拉消息任务的隔离，�
 
 ---
 #### Links:
-* [架构介绍](../../../README.md)
+
 * [Request-Reply调用](cn/features/1-request-response-call.md)
 * [灰度发布](cn/features/2-dark-launch.md)
 * [熔断机制](cn/features/3-circuit-break-mechanism.md)

@@ -7,7 +7,7 @@ DeFiBus支持单播、多播、广播消费模式。
 
 <div align=center>
 
-![unicast](../../images/features/unicast.png)
+![unicast](/images/features/unicast.png)
 
 </div>
 
@@ -17,7 +17,7 @@ DeFiBus支持单播、多播、广播消费模式。
 
 <div align=center>
 
-![multicast](../../images/features/multicast.png)
+![multicast](/images/features/multicast.png)
 
 </div>
 
@@ -28,7 +28,7 @@ DeFiBus支持单播、多播、广播消费模式。
 
 <div align=center>
 
-![broadcast](../../images/features/broadcast.png)
+![broadcast](/images/features/broadcast.png)
 
 </div>
 
